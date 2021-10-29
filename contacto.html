@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Decoplanners</title>
+    <!-- Font -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500&display=swap"
+    />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    
+  </head>
+
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="nav-main">
+      <!-- Logo -->
+        <img id="logo" src="img/logo.png" alt="Deccoplanner Logo" class="nav-logo" />
+        <!-- Right Nav -->
+        <ul class="nav-menu">
+          <li>
+            <a href="index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="proyectos.html">Proyectos</a>
+          </li>
+          <li>
+            <a href="nosotros.html">Sobre Nosotros</a>
+          </li>
+          <li>
+            <a href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+      <hr />
+
+      <!-- CARDS -->
+
+      <div class="contacto">
+        <div class="address">
+          <h2>Contacto</h2>
+          <ul>
+            <li class="dir"><a href="mailto:admin@gmail.com">admin@decoplanners.com</a></li>
+            <li class="dir">Gurruchaga 1437</li>
+            <li class="dir">+54 011 3452 2315</li>
+          </ul>
+        </div>
+        <div class="map">
+          <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5387611941005!2d-58.43301218477062!3d-34.590535580463!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5883836fde5%3A0x881a40c303c72943!2sGurruchaga%201437%2C%20C1414%20CABA!5e0!3m2!1ses!2sar!4v1634578110016!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="form">
+          <h2>Envianos tu consulta</h2>
+          <form id="formulario">
+            <p>Nombre</p>
+            <input type="text" class="field" id="usuario"name="nombre">
+            <p>Correo electronico</p>
+            <input type="text" class="field" id="email"name="email">
+            <p>Asunto</p>
+            <input type="text" class="field"name="asunto">
+            <p>Mensaje</p>
+            <textarea class="field" name="message"></textarea>
+            <p class="center-content">
+              <input type="submit" class="btn"id="btn-enviar" value="Enviar"></p>
+          </form>
+        </div>
+      </div>
+    </div>
+    
+
+    <!-- Footer -->
+    <div class="social">
+      <p>Seguinos</p>
+      <div class="links">
+        <a href="https://facebook.com">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="https://twitter.com">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="https://linkdin.com">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+      <h5>Decoplanners Copyright</h5>
+    </div>
+    <!-- JS -->
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
