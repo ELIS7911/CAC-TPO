@@ -374,6 +374,10 @@ span {
     padding: 120px 15px 15px 15px;
   }
 
+  .carousel-item img {
+    height: 400px;
+    }
+
   .contacto {
     display: flex;
     flex-direction: column;
@@ -400,7 +404,7 @@ span {
   .deco-cards {
     grid-template-columns: 1fr;
   }
-
+  
   .footer-links .footer-container {
     grid-template-columns: 1fr;
   }
